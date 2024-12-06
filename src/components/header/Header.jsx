@@ -16,12 +16,11 @@ const Header = () => {
  
   useEffect(() => {
     if (open) {
-      document.body.style.overflow = "hidden"; // Disable body scroll when menu is open
+      document.body.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = "auto"; // Re-enable body scroll when menu is closed
+      document.body.style.overflow = "auto"; 
     }
 
-    // Cleanup function to ensure body scroll behavior is reset if the component is unmounted
     return () => {
       document.body.style.overflow = "auto";
     };
@@ -59,7 +58,6 @@ const Header = () => {
           {loginTxt.register}
         </button>
 
-        {/* Dropdown Button */}
         <div
           className="relative h-11 gap-2 bg-primary-light px-5 flex justify-center items-center rounded-md"
           onMouseEnter={() => setDropdownOpen(true)} // Open on hover
