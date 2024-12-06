@@ -1,0 +1,142 @@
+{
+  "hero": {
+    "title": "This is the heading"
+  },
+  "common": {
+    "login": "login",
+    "register": "register",
+    "learn_more": "learn more",
+    "buy_now": "buy now",
+    "brands": "Brands",
+    "onboard": "onboard"
+  },
+  "navList": [
+    {
+      "text": "Home",
+      "href": "/"
+    },
+    {
+      "text": "Buy Material",
+      "href": "/buymaterial"
+    },
+    {
+      "text": "BNPL",
+      "href": "/BNPL"
+    },
+    {
+      "text": "About Us",
+      "href": "/about"
+    }
+  ],
+  "slide_1": {
+    "title_1": "Make Your Construction Budget Go Further",
+    "title_2": "Buy from BRKZ Now, Pay Later!"
+  },
+  "slide_2": {
+    "title_1": "Buy high quality building materials with a touch of a ",
+    "title_2": "button"
+  },
+  "slide_3": {
+    "title_1": "Raise an RFQ in ",
+    "title_2": "less than 30 seconds"
+  },
+  "slide_4": {
+    "title_1": "Easily pay through ",
+    "title_2": "Bank Transfer, Mada POS or Cash"
+  },
+  "slide_5": {
+    "title_1": "Material directly delivered to your ",
+    "title_2": "store or project!"
+  },
+  "key_feature": {
+    "key": "key",
+    "feature": "features",
+    "sub_tilte": "By building a tech-enabled ecosystem to revolutionize the MENA construction industry, we aim to empower contractors to reach their full potential",
+    "card-1_title": "Raise an RFQ for your Desired Construction Materials",
+    "card-1_SubTitle": "Raise an RFQ for your desired construction materials in less than 30 seconds via multiple platforms including WhatsApp, WebApp & Mobile App.",
+    "card-2_title": "Accept Best Priced Quotation",
+    "card-2_SubTitle": "Receive your requested quotation in just a few minutes. You can accept our quotation after checking & we’ll process your order. As simple as that!",
+    "card-3_title": "Enjoy Same Day Delivery",
+    "card-3_SubTitle": "We have a variety high quality vehicles to safely deliver your materials.",
+    "card-4_title": "Pay with Ease!",
+    "card-4_SubTitle": "Easily pay through Bank Transfer, Mada POS or Cash"
+  },
+  "counter": {
+    "title_1": "Available",
+    "sub_title_1": "SKUs",
+    "title_2": "Issued ",
+    "sub_title_2": "RFQs",
+    "title_3": "Issued ",
+    "sub_title_3": "RFQs",
+    "billion": "Billion ",
+    "sar": "SAR"
+  },
+  "value": {
+    "our": "our",
+    "value": "Added Value",
+    "sub_tilte": "It's not only about being digital. It's about better prices, faster logistics, and wider selection.",
+    "card-1_title": "Our Buyers",
+    "card-1_SubTitle": "Our top priority is supporting our buyers to access the best prices, service and options",
+    "card-1_point1": "Access a wide pool of suppliers and materials.",
+    "card-1_point2": "Easy registration and fast RFQ issuance via WhatsApp or website.",
+    "card-1_point3": "Multiple delivery and payment options based on your needs.",
+
+    "card-2_title": "Our Suppliers",
+    "card-2_SubTitle": "Our suppliers are our success partners that we aim to satisfy with every transaction",
+    "card-2_point1":"Access a wide customer base, with a click of a button.",
+    "card-2_point2":"Just provide competitive prices, we will be your sales and operations.",
+    "card-2_point3":"Customize your prices by size, location, and delivery options."
+  },
+  "reviews_section": {
+    "title": "Our ",
+    "title_1":"Happy BRKZters",
+    "reviews": [
+      {
+        "id": 1,
+        "reviewer_name": "Amer Mtairi",
+        "position": "Contractor",
+        "review": "WhatsApp feature is very easy and fast to use."
+      },
+      {
+        "id": 2,
+        "reviewer_name": "Syed Ibrahim Malik",
+        "position": "Contractor",
+        "review": "Never thought I will order Cement online! Great experience."
+      },
+      {
+        "id": 3,
+        "reviewer_name": "Mohammad Naim",
+        "position": "Contractor",
+        "review": "Great prices, fast delivery. No complaints at all!"
+      },
+      {
+        "id": 4,
+        "reviewer_name": "Ismail Omer",
+        "position": "Retailer",
+        "review": "Great support from BRKZ team, they are always there to support!"
+      }
+    ]
+  },
+  
+    "banner": {
+      "title": "Join BRKZ for FREE",
+      "subtitle": "Access top-quality construction material at unbeatable prices"
+    },
+    
+      "footer": {
+        "address": "Prince Faisal Ibn Bandar Ibn Abdulaziz, Al Narjis Dist., Riyadh 13324 - Kingdom of Saudi Arabia",
+        "get_in_touch": "Get In Touch",
+        "email": "Email",
+        "tax": "Tax",
+        "call_us": "Call Us",
+        "cr_details": "CR Details",
+        "buy_material": "Buy Material",
+        "contact_us": "Contact Us",
+        "blog": "Blog",
+        "copyright": "© Copyright 2024, BRKZ International Information Technology Company, All Rights Reserved.",
+        "privacy_policy": "Privacy Policy and Terms of Use"
+      },
+      "fixed_component": {
+    "title": "Raise an RFQ in less than 30 seconds!"
+  }
+}

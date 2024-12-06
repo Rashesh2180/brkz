@@ -1,13 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+ padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.custom-container{
+  @apply px-20
+}
+.shadow-header{
+  box-shadow: 0 9px 23px rgba(0, 149, 169, .09);
+}
+.custom-container{
+  @apply xl:w-[calc(100%-100px)] w-[calc(100%-20px)] max-w-[1650px]  px-5 mx-auto
+}
+.section-m{
+  @apply my-[114px]
+}
+.section-title{
+  @apply text-light-gray text-[50px] text-center font-semibold leading-[77px] capitalize
+}
+.section-subtitle{
+  @apply text-secondary-light text-[24px] text-center font-medium leading-[42.5px] capitalize max-w-[940px] mx-auto
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.brands-slider {
+  display: flex;
+  animation: slide 30s linear infinite;
+}
+
+.brands-slider img {
+  margin-right: 20px;
+}
+.styles_key_features__YtBem .styles_content__g50JF .styles_list__TAIhY .styles_item__bW0cX .styles_icon__bnatv svg {
+  color: #0095a9 !important;
 }
