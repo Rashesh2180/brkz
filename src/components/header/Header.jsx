@@ -107,7 +107,7 @@ const Header = () => {
       </div>
 
       {open && (
-        <ul className="flex  flex-col  w-56 absolute top-[88px] right-0 pt-10 bg-white z-50 shadow-xl h-screen items-start p-5 gap-8">
+        <ul className="flex  flex-col  w-56 absolute top-[84px] right-0 pt-10 bg-white z-50 shadow-xl h-screen items-start p-5 gap-8">
           {navList.map((ele, ind) => (
             <li key={ind} className="">
               <NavLink

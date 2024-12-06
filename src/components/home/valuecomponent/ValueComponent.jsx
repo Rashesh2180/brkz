@@ -45,7 +45,7 @@ const ValueComponent = () => {
         <span className="text-secondary-dark">{enText.value["value"]}</span>
       </h1>
       <p className="mt-5 section-subtitle">{enText.value.sub_tilte}</p>
-      <div className="cards-container mt-12 flex gap-12 max-lg:flex-col">
+      <div className="cards-container  mt-12 flex gap-12 max-lg:flex-col">
         {valueData.map((item) => (
           <div
             key={item.id}
@@ -88,11 +88,13 @@ const ValueComponent = () => {
               </ul>
             </div>
 
-            {item.id === 1 ? (
+          <div className=" max-sm:mx-auto max-sm:flex justify-center">
+          {item.id === 1 ? (
               <Button text={"Buy Material"} /> 
             ) : item.id === 2 ? (
               <Button text={"Contact with Us"} /> 
             ) : null}
+          </div>
           </div>
         ))}
       </div>

@@ -18,7 +18,7 @@ const Banner = () => {
 
       <img
         src="https://brkz.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdtbk6u1pb%2Fimage%2Fupload%2Fv1695814102%2Fhome%2Frebar_kqxlop.png&w=828&q=75"
-        className="absolute top-0 right-0 w-[388px] h-[277px]"
+        className="absolute top-0 right-0 w-[388px] h-[277px] max-sm:hidden"
         alt=""
       />
     </div>
