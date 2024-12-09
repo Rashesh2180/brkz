@@ -36,18 +36,25 @@ const KeyFeatures = () => {
         <span className="text-secondary-dark">{keyFeatureTxt.feature} </span>
       </h1>
       <p className=" mt-5 section-subtitle">{keyFeatureTxt.sub_tilte}</p>
-      <div className=" mt-24 flex xl:gap-20 gap-10 max-lg:flex-col w-full">
-      <div className=" flex-[5]">
-      <div className=" w-full lg:max-w-[562px] flex flex-col gap-5">
+      <div className=" mt-10 ">
+          <img
+            src="https://brkz.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdtbk6u1pb%2Fimage%2Fupload%2Fv1697039295%2Fhome%2Fkey_features_hzxfg0.webp&w=3840&q=75"
+            alt=""
+            className=" object-contain w-full h-[500px]"
+          />
+        </div>
+      <div className=" mt-10 w-full">
+      <div className=" ">
+      <div className=" w-full grid md:grid-cols-2 gap-5">
         {data.length > 0 && (
           data.map((ele) => (
-            <div key={ele.id} className=" p-[26px] flex gap-5 hover:bg-primary-light rounded-xl">
+            <div key={ele.id} className=" p-2 flex gap-5  rounded-xl">
               <div className=" h-11 w-11 p-[6px] shrink-0 rounded-[9px] bg-[rgba(0,149,169,.07)]">
               <img src={ele.img} alt="" className=" h-[31px] w-[31px] feature-image" />
               </div>
              <div>
              <h2 className=" text-[30px] text-secondary-dark font-semibold leading-9">{ele.title}</h2>
-             <p className=" text-[19px] leading-8 font-medium text-secondary-light">{ele.sub_title}</p>
+             <p className=" text-[19px] mt-2 leading-8 font-medium text-secondary-light">{ele.sub_title}</p>
              </div>
 
               
@@ -56,14 +63,7 @@ const KeyFeatures = () => {
         )}
         </div>
       </div>
-        <div className=" flex-[7] ">
-          <img
-            src="https://brkz.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdtbk6u1pb%2Fimage%2Fupload%2Fv1697039295%2Fhome%2Fkey_features_hzxfg0.webp&w=3840&q=75"
-            alt=""
-            className=" object-cover"
-            height={655}
-          />
-        </div>
+       
       </div>
     </section>
   );

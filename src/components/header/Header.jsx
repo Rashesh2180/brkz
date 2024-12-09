@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from "react";
 import enText from "../../translationText/en.json";
 import { NavLink, useLocation } from "react-router-dom";
-
+import { IoEarth } from "react-icons/io5";
 const Header = () => {
   const [open, setOpen] = useState(false);
   const navList = enText.navList;
@@ -63,17 +63,18 @@ const Header = () => {
           onMouseEnter={() => setDropdownOpen(true)} // Open on hover
           onMouseLeave={() => setDropdownOpen(false)} // Close when leaving the button
         >
-          <img
+          {/* <img
             src="/assets/images/herocarsol/world/world.png"
             alt=""
             className="h-5 w-5"
-          />
-          <button className="text-secondary-dark text-base flex items-center ml-2 gap-2 font-medium">
+          /> */}
+          <IoEarth className=" text-xl text-white" />
+          <button className="text-white text-base flex items-center ml-2 gap-2 font-medium">
             EN
           </button>
           {/* Rotate the arrow when dropdown is open */}
           <i
-            className={`fa-solid fa-chevron-down text-primary text-xs transition-transform duration-300 ${
+            className={`fa-solid fa-chevron-down text-white text-xs transition-transform duration-300 ${
               isDropdownOpen ? "rotate-180" : ""
             }`}
           ></i>

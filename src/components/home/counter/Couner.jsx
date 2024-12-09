@@ -35,7 +35,7 @@ const Couner = () => {
           {counterData.map((item) => (
             <div key={item.id} className="counter-card flex flex-col items-center gap-5 ">
                 <img src={item.img} alt="" className=" h-[60px] w-[60px]" />
-                <h1 className=" text-3xl lg:text-[50px] font-bold text-white "> <span className=" text-[#006a78] mr-2">{item.sar}</span> {item.count}  {item.billion} +</h1>
+                <h1 className=" text-3xl lg:text-[50px] font-bold text-white "> <span className=" text-white mr-2">{item.sar}</span> {item.count}  {item.billion} +</h1>
               <h3 className="  text-2xl lg:text-[30px] text-secondary-dark">{item.title} <span className=" font-bold">{item.sub_title}</span></h3>
             </div>
           ))}

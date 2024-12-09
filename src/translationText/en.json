@@ -83,13 +83,13 @@
 
     "card-2_title": "Our Suppliers",
     "card-2_SubTitle": "Our suppliers are our success partners that we aim to satisfy with every transaction",
-    "card-2_point1":"Access a wide customer base, with a click of a button.",
-    "card-2_point2":"Just provide competitive prices, we will be your sales and operations.",
-    "card-2_point3":"Customize your prices by size, location, and delivery options."
+    "card-2_point1": "Access a wide customer base, with a click of a button.",
+    "card-2_point2": "Just provide competitive prices, we will be your sales and operations.",
+    "card-2_point3": "Customize your prices by size, location, and delivery options."
   },
   "reviews_section": {
     "title": "Our ",
-    "title_1":"Happy BRKZters",
+    "title_1": "Happy BRKZters",
     "reviews": [
       {
         "id": 1,
@@ -117,26 +117,34 @@
       }
     ]
   },
-  
-    "banner": {
-      "title": "Join BRKZ for FREE",
-      "subtitle": "Access top-quality construction material at unbeatable prices"
-    },
-    
-      "footer": {
-        "address": "Prince Faisal Ibn Bandar Ibn Abdulaziz, Al Narjis Dist., Riyadh 13324 - Kingdom of Saudi Arabia",
-        "get_in_touch": "Get In Touch",
-        "email": "Email",
-        "tax": "Tax",
-        "call_us": "Call Us",
-        "cr_details": "CR Details",
-        "buy_material": "Buy Material",
-        "contact_us": "Contact Us",
-        "blog": "Blog",
-        "copyright": "© Copyright 2024, BRKZ International Information Technology Company, All Rights Reserved.",
-        "privacy_policy": "Privacy Policy and Terms of Use"
-      },
-      "fixed_component": {
+
+  "banner": {
+    "title": "Join BRKZ for FREE",
+    "subtitle": "Access top-quality construction material at unbeatable prices"
+  },
+
+  "footer": {
+    "address": "Prince Faisal Ibn Bandar Ibn Abdulaziz, Al Narjis Dist., Riyadh 13324 - Kingdom of Saudi Arabia",
+    "get_in_touch": "Get In Touch",
+    "email": "Email",
+    "tax": "Tax",
+    "call_us": "Call Us",
+    "cr_details": "CR Details",
+    "buy_material": "Buy Material",
+    "contact_us": "Contact Us",
+    "blog": "Blog",
+    "copyright": "© Copyright 2024, BRKZ International Information Technology Company, All Rights Reserved.",
+    "privacy_policy": "Privacy Policy and Terms of Use"
+  },
+  "fixed_component": {
     "title": "Raise an RFQ in less than 30 seconds!"
+  },
+
+  "about": {
+    "investors": {
+      "title": "Partnering for Success",
+      "meet":"Meet",
+      "subtitle": " our Investors"
+    }
   }
 }

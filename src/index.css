@@ -29,7 +29,10 @@ body {
   @apply my-[114px]
 }
 .section-title{
-  @apply text-light-gray text-[50px] text-center font-semibold leading-[77px] capitalize
+  @apply text-primary text-[50px] text-center font-semibold leading-[77px] capitalize
+}
+.small-title{
+  @apply text-lg  text-primary font-semibold
 }
 .section-subtitle{
   @apply text-secondary-light text-[24px] text-center font-medium leading-[42.5px] capitalize max-w-[940px] mx-auto

@@ -19,7 +19,7 @@ const Footer = () => {
   return (
     <footer className=" py-20">
       <div className="custom-container flex  justify-between gap-10 flex-wrap">
-        <img src="/assets/svg/footer/footer.svg" className=" w-[90px] h-[116px]" alt="" />
+        {/* <img src="/assets/svg/footer/footer.svg" className=" w-[90px] h-[116px]" alt="" />w */}
         {/* Address */}
         <div className="text-secondary-dark  text-sm font-semibold leading-8">
           <ul>
@@ -50,7 +50,6 @@ const Footer = () => {
           <p>{copyright}</p>
           <p className=" text-primary cursor-pointer">{privacy_policy}</p>
 
-          <img src="/assets/svg/footer/arrow.svg" className=" h-10 w-10 absolute bottom-2 cursor-pointer right-10" alt="" />
         </div>
     </footer>
   );

@@ -1,9 +1,12 @@
 import React from 'react'
+import AboutComponent from '../../components/about/AboutComponent'
 
 const About = () => {
   return (
-    <div className='text-center py-20'>
-        about
+    <div >
+      <AboutComponent/>
+      
+        
       
     </div>
   )
