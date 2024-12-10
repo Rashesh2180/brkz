@@ -10,10 +10,10 @@
     "brands": "Brands",
     "onboard": "onboard",
     "contact_us": "Contact Us",
-    "start":"Get Started",
-    "new":"new",
-    "Howwork":"How it works?",
-    "apply":"Apply Now"
+    "start": "Get Started",
+    "new": "new",
+    "Howwork": "How it works?",
+    "apply": "Apply Now"
   },
   "navList": [
     {
@@ -154,7 +154,7 @@
     "values": {
       "title": "Our Values",
       "details": "Our values keep us connected and guide us as one team with the same vision",
-      "how":"How we",
+      "how": "How we",
       "subtitle": "  work at BRKZ",
       "card": [
         {
@@ -184,47 +184,93 @@
         }
       ]
     },
-    "approve":{
-      "proud":"We are proud to be",
-      "vendor":"an approved vendor at"
+    "approve": {
+      "proud": "We are proud to be",
+      "vendor": "an approved vendor at"
     },
-    "feature":{
-      "title_1":"How BRKZ Revolutionizes the MENA",
-      "title_2":"Construction Industry",
-      "sub_tilte":"Meet our CEO/Founder - Ibrahim Manna!",
-      "our":"Our",
-      "feature":"Features",
-      "sub_title_2":"See what the biggest names in tech have to say about us!",
-      "redmore":"Read More"
-
+    "feature": {
+      "title_1": "How BRKZ Revolutionizes the MENA",
+      "title_2": "Construction Industry",
+      "sub_tilte": "Meet our CEO/Founder - Ibrahim Manna!",
+      "our": "Our",
+      "feature": "Features",
+      "sub_title_2": "See what the biggest names in tech have to say about us!",
+      "redmore": "Read More"
     },
-    "location":{
-      "title-1":"We’re Covering",
-      "title-2":"Every Corner in KSA!",
-      "sub_tilte":"Our headquarter in Riyadh",
-      "address":"Prince Faisal Ibn Bandar Ibn Abdulaziz, Al Narjis Dist., Riyadh 13324 Kingdom of Saudi Arabia"
-
+    "location": {
+      "title-1": "We’re Covering",
+      "title-2": "Every Corner in KSA!",
+      "sub_tilte": "Our headquarter in Riyadh",
+      "address": "Prince Faisal Ibn Bandar Ibn Abdulaziz, Al Narjis Dist., Riyadh 13324 Kingdom of Saudi Arabia"
     },
-    "banner":{
-      "title1":"Join BRKZ for FREE and access",
-      "title2":"top-quality construction material",
-      "title3":"at unbeatable prices",
-      "subtitle":"Join over 1,000+ buyers and contractors that rely on BRKZ"
-
-
-
+    "banner": {
+      "title1": "Join BRKZ for FREE and access",
+      "title2": "top-quality construction material",
+      "title3": "at unbeatable prices",
+      "subtitle": "Join over 1,000+ buyers and contractors that rely on BRKZ"
     }
   },
-  "bnpl":{
-    "hero":{
-    "heading":"Buy from BRKZ Now, Pay Later!",
-    "title":"Make Your Project's Budget Go Further",
-    "sub_tilte":"Flexible and easy installment plans tailored to your budget are now available on BRKZ!"
-
-
+  "bnpl": {
+    "hero": {
+      "heading": "Buy from BRKZ Now, Pay Later!",
+      "title": "Make Your Project's Budget Go Further",
+      "sub_tilte": "Flexible and easy installment plans tailored to your budget are now available on BRKZ!"
     },
-    "work":{
-      "sub_tilte":"Paying through Buy Now Pay Later options is simple"
+    "work": {
+      "sub_tilte": "Paying through Buy Now Pay Later options is simple",
+      "cards": [
+        {
+          "id": "1",
+          "title": "Apply Online",
+          "sub_tilte": "Simply fill out our digital credit form and upload the required necessary documents"
+        },
+        {
+          "id": "2",
+          "title": "Get Approved",
+          "sub_tilte": "Get your complete application assessed and approved in less than 3 business days"
+        },
+        {
+          "id": "3",
+          "title": "Use Credit to Buy Materials",
+          "sub_tilte": "Use your approved credit limit & terms to buy building material, while spreading out your payments"
+        },
+        {
+          "id": "4",
+          "title": "Pay Back in Installments",
+          "sub_tilte": "Receive automated reminders when an installment is due. Pay on time to access more credit!"
+        }
+      ]
+    },
+    "feature": {
+      "title_1": "Features and Benefits",
+      "sub_tilte": "Apply easily with a few simple steps",
+      "cards": [
+        { "title": "Increase your purchase power" },
+        { "title": "Improve your cashflow" },
+        { "title": "Access material quicker" }
+      ]
+    },
+    "payment": {
+      "title_1": "Discover our flexible payment options",
+      "sub_tilte": "Buying material on credit, made easy!",
+      "cards": [
+        {
+          "title": "Pay in Two",
+          "sub_tilte": "Split your purchase into two easy payments. Enjoy the convenience of buying now and paying 50% upfront, 50% after 30 days."
+        },
+        {
+          "title": "Pay in Three",
+          "sub_tilte": "Enjoy the flexibility of buying now and spreading the cost over three installments within 60 days"
+        },
+        {
+          "title": "Pay in Four",
+          "sub_tilte": "Buy now and manage your budget with the convenience of four installments."
+        }
+      ]
+    },
+    "banner":{
+      "title":"Get your building materials quickly and easily"
+
     }
   }
 }

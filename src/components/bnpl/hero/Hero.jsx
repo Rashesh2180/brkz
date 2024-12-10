@@ -5,7 +5,7 @@ const Hero = () => {
   const common = entxt.common;
   const heroTxt = entxt.bnpl.hero;
   return (
-    <div className=" h-[calc(100vh-84px)] bg-gradient-to-b from-primary to-[#375c8d] flex-col justify-center items-center">
+    <div className=" lg:h-[calc(100vh-84px)] bg-gradient-to-b from-primary to-[#375c8d] flex-col justify-center items-center">
       <div className=" h-full w-full py-10 flex justify-between items-center gap-8 max-lg:flex-col xl:gap-14  custom-container">
         <div className=" flex-1">
           <h1 className=" text-xl text-white font-medium p-1 !text-start  rounded-md">
