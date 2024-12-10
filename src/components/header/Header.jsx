@@ -38,9 +38,9 @@ const Header = () => {
           <li key={ind} className="px-4">
             <NavLink
               to={ele.href}
-              className={`text-base font-semibold py-2 hover:text-primary ${
+              className={`text-base font-semibold py-2 hover:text-secondary-dark ${
                 location.pathname === ele.href
-                  ? "text-primary border-b-4 border-primary"
+                  ? "text-secondary-dark border-b-4 border-secondary-dark"
                   : "text-secondary-light"
               }`}
             >

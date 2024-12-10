@@ -8,7 +8,7 @@ const TeamGallery = () => {
           The driving force behind our success
         </h1>
         <h2 className="section-title "> <span className="!text-secondary-dark">Meet</span> our Team</h2>
-        <p className=" text-center mt-5 max-w-[600px] text-lg text-secondary-light mx-auto">
+        <p className=" text-center mt-5 max-w-[750px] text-lg text-secondary-light mx-auto">
           Company culture refers to the character, values, and beliefs that go
           beyond the organizational structure and shape how a company operates
           and how its members interact. It represents the overall spirit and

@@ -1,9 +1,10 @@
 import React from 'react'
+import BnplComponent from '../../components/bnpl/BnplComponent'
 
 const Bnpl = () => {
   return (
-    <div className=' text-center py-20'>
-    BNPL
+    <div className=' '>
+    <BnplComponent/>
   
 </div>
   )

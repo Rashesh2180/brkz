@@ -11,59 +11,60 @@ const Invenstors = () => {
         {aboutTxt.subtitle}
       </h1>
       <div className=" mt-10 flex brands-slider  animate-slide gap-16 items-center">
-        <div className=" leading-[12.5rem]">
+        <div className=" ">
           <img
             src="https://res.cloudinary.com/dtbk6u1pb/image/upload/v1717152689/About%20Us/icon9900_b2f2xl.png"
             width={180}
+            className="h-28 object-contain"
             alt=""
           />
         </div>
-        <div className=" leading-[12.5rem]">
+        <div className=" ">
           <img
             src="https://res.cloudinary.com/dtbk6u1pb/image/upload/v1717152689/About%20Us/iconBeco_xufkol.png"
-            width={180}
+            width={180}  className="h-28 object-contain"
             alt=""
           />
         </div>
-        <div className=" leading-[12.5rem]">
+        <div className=" ">
           <img
             src="https://res.cloudinary.com/dtbk6u1pb/image/upload/v1717152690/About%20Us/iconVenture_mtfw3z.png"
-            width={180}
+            width={180}  className="h-28 object-contain"
             alt=""
           />
         </div>
-        <div className=" leading-[12.5rem]">
+        <div className=" ">
           <img
             src="https://res.cloudinary.com/dtbk6u1pb/image/upload/v1717152690/About%20Us/iconWaed_pvylxq.png"
-            width={180}
+            width={180}  className="h-28 object-contain"
             alt=""
           />
         </div>
-        <div className=" leading-[12.5rem]">
+        <div className=" ">
           <img
             src="https://res.cloudinary.com/dtbk6u1pb/image/upload/v1717152690/About%20Us/iconKnolwood_qi6uxx.png"
-            width={180}
+            width={180}  className="h-28 object-contain"
             alt=""
           />
         </div>
-        <div className=" leading-[12.5rem]">
+        <div className=" ">
           <img
             src="https://res.cloudinary.com/dtbk6u1pb/image/upload/v1717152689/About%20Us/iconClass5_xp3zhb.png"
-            width={180}
+            width={180}  className="h-28 object-contain"
             alt=""
           />
         </div>
-        <div className=" leading-[12.5rem]">
+        <div className=" ">
           <img
             src="https://res.cloudinary.com/dtbk6u1pb/image/upload/v1717152690/About%20Us/iconRzm_stzuhv.png"
-            width={180}
+            width={180}  className="h-28 object-contain"
             alt=""
           />
         </div>
-        <div className=" leading-[12.5rem]">
+        <div className=" ">
           <img
             src="https://res.cloudinary.com/dtbk6u1pb/image/upload/v1717152690/About%20Us/iconPlus_gitkg7.png"
-            width={180}
+            width={180}  className="h-28 object-contain"
             alt=""
           />
         </div>

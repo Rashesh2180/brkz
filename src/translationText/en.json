@@ -8,7 +8,12 @@
     "learn_more": "learn more",
     "buy_now": "buy now",
     "brands": "Brands",
-    "onboard": "onboard"
+    "onboard": "onboard",
+    "contact_us": "Contact Us",
+    "start":"Get Started",
+    "new":"new",
+    "Howwork":"How it works?",
+    "apply":"Apply Now"
   },
   "navList": [
     {
@@ -143,8 +148,83 @@
   "about": {
     "investors": {
       "title": "Partnering for Success",
-      "meet":"Meet",
+      "meet": "Meet",
       "subtitle": " our Investors"
+    },
+    "values": {
+      "title": "Our Values",
+      "details": "Our values keep us connected and guide us as one team with the same vision",
+      "how":"How we",
+      "subtitle": "  work at BRKZ",
+      "card": [
+        {
+          "img": "https://brkz.com/_next/static/media/ownerIcon.6174e17a.svg",
+          "title": "We are Owners, Not Employees",
+          "sub_title": "We take pride in being owners rather than just employees. We have a sense of ownership and accountability for our work"
+        },
+        {
+          "img": "https://brkz.com/_next/static/media/experienceIcon.5b679d9c.svg",
+          "title": "Every Experience Matters",
+          "sub_title": "Every experience we encounter holds value. Whether it's a success or a setback, we learn and grow from it"
+        },
+        {
+          "img": "https://brkz.com/_next/static/media/shootIcon.60996689.svg",
+          "title": "Shoot to the moon",
+          "sub_title": "We dare to dream big and aim high. Our aspirations reach beyond the ordinary, and we constantly strive to push boundaries"
+        },
+        {
+          "img": "https://brkz.com/_next/static/media/techIcon.13017c57.svg",
+          "title": "Tech is our Superpower",
+          "sub_title": "We are capable of revolutionizing industries and make a lasting impact. Let's harness our superpower and lead the way in the digital age"
+        },
+        {
+          "img": "https://brkz.com/_next/static/media/strongerIcon.04fa7f74.svg",
+          "title": "We are Stronger Together",
+          "sub_title": "We have a sense of ownership and accountability for our work, striving to make a significant impact on the company's success. Together"
+        }
+      ]
+    },
+    "approve":{
+      "proud":"We are proud to be",
+      "vendor":"an approved vendor at"
+    },
+    "feature":{
+      "title_1":"How BRKZ Revolutionizes the MENA",
+      "title_2":"Construction Industry",
+      "sub_tilte":"Meet our CEO/Founder - Ibrahim Manna!",
+      "our":"Our",
+      "feature":"Features",
+      "sub_title_2":"See what the biggest names in tech have to say about us!",
+      "redmore":"Read More"
+
+    },
+    "location":{
+      "title-1":"We’re Covering",
+      "title-2":"Every Corner in KSA!",
+      "sub_tilte":"Our headquarter in Riyadh",
+      "address":"Prince Faisal Ibn Bandar Ibn Abdulaziz, Al Narjis Dist., Riyadh 13324 Kingdom of Saudi Arabia"
+
+    },
+    "banner":{
+      "title1":"Join BRKZ for FREE and access",
+      "title2":"top-quality construction material",
+      "title3":"at unbeatable prices",
+      "subtitle":"Join over 1,000+ buyers and contractors that rely on BRKZ"
+
+
+
+    }
+  },
+  "bnpl":{
+    "hero":{
+    "heading":"Buy from BRKZ Now, Pay Later!",
+    "title":"Make Your Project's Budget Go Further",
+    "sub_tilte":"Flexible and easy installment plans tailored to your budget are now available on BRKZ!"
+
+
+    },
+    "work":{
+      "sub_tilte":"Paying through Buy Now Pay Later options is simple"
     }
   }
 }
