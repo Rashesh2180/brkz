@@ -13,7 +13,18 @@
     "start": "Get Started",
     "new": "new",
     "Howwork": "How it works?",
-    "apply": "Apply Now"
+    "apply": "Apply Now",
+    "buy_material": "Buy Material",
+    "seeall":"See All",
+    "welcome":"welcome"
+    
+  },
+  "login":{
+    "number":"Please enter your mobile number",
+    "sendbutton":"Send code Via Whatsapp",
+    "sms":"Send Code via SMS",
+    "sub_tilte":"Please enter your mobile number"
+
   },
   "navList": [
     {
@@ -31,6 +42,316 @@
     {
       "text": "About Us",
       "href": "/about"
+    }
+  ],
+  "sidebarList": [
+    {
+      "text": "all products",
+      "href": "/buymaterial",
+      "icon": "FaBox"
+    },
+    {
+      "text": "cement",
+      "href": "",
+      "icon": "FaArchway",
+      "subcategories": [
+       
+      
+        {
+          "text": "Concrete Ready Mix",
+          "href": "",
+          "icon": "FaTruckLoading"
+        },
+        {
+          "text": "Bulk Cement",
+          "href": "/bulk-cement",
+          "icon": "FaWarehouse"
+        },
+        {
+          "text": "Cement Bags",
+          "href": "",
+          "icon": "FaBoxOpen"
+        },
+        {
+          "text": "Cement Board",
+          "href": "",
+          "icon": "FaFileAlt"
+        }
+      ]
+    },
+    {
+      "text": "Block",
+      "href": "/",
+      "icon": "FaAtlas",
+      "subcategories": [
+      
+        {
+          "text": "Steam (Bukhari)",
+          "href": "",
+          "icon": "FaCloudRain"
+        },
+        {
+          "text": "Burkani",
+          "href": "",
+          "icon": "FaCube"
+        },
+        {
+          "text": "Normal",
+          "href": "",
+          "icon": "FaSquare"
+        },
+        {
+          "text": "Mixed",
+          "href": "",
+          "icon": "FaPuzzlePiece"
+        },
+        {
+          "text": "Red",
+          "href": "",
+          "icon": "FaRedhat"
+        },
+        {
+          "text": "Siporex Wood",
+          "href": "",
+          "icon": "FaTree"
+        }
+      ]
+    },
+    {
+      "text": "Wood",
+      "href": "",
+      "icon": "FaTree",
+      "subcategories": [
+       
+        {
+          "text": "Block",
+          "href": "",
+          "icon": "FaCube"
+        },
+        {
+          "text": "Plywood",
+          "href": "",
+          "icon": "FaPallet"
+        },
+        {
+          "text": "MDF Boards",
+          "href": "",
+          "icon": "FaFileAlt"
+        }
+      ]
+    },
+    {
+      "text": "Interlock, Tiles, etc",
+      "href": "",
+      "icon": "FaAvianex",
+      "subcategories": [
+       
+        {
+          "text": "Kerbstone",
+          "href": "",
+          "icon": "FaCube"
+        },
+        {
+          "text": "Tiles",
+          "href": "",
+          "icon": "FaTile"
+        },
+        {
+          "text": "Interlock",
+          "href": "",
+          "icon": "FaPuzzlePiece"
+        }
+      ]
+    },
+    {
+      "text": "Gypsum",
+      "href": "",
+      "icon": "FaCloudSunRain",
+      "subcategories": [
+        {
+          "text": "Gypsum Board",
+          "href": "",
+          "icon": "FaFileAlt"
+        },
+        {
+          "text": "Gypsum Bags",
+          "href": "",
+          "icon": "FaBoxOpen"
+        },
+        {
+          "text": "Gypsum Accessories",
+          "href": "",
+          "icon": "FaTools"
+        }
+      ]
+    },
+    {
+      "text": "Chemical & Adhesives",
+      "href": "",
+      "icon": "FaFlask",
+      "subcategories": [
+        {
+          "text": "Chemicals / Pesticides",
+          "href": "",
+          "icon": "FaExclamationTriangle"
+        },
+        {
+          "text": "Finishing Materials",
+          "href": "",
+          "icon": "FaPaintRoller"
+        },
+        {
+          "text": "Paints",
+          "href": "",
+          "icon": "FaBrush"
+        }
+      ]
+    },
+    {
+      "text": "Tools & Consumables",
+      "href": "",
+      "icon": "FaWrench",
+      "subcategories": [
+        {
+          "text": "Consumables",
+          "href": "",
+          "icon": "FaCogs"
+        },
+        {
+          "text": "Industrial Tools",
+          "href": "",
+          "icon": "FaHammer"
+        },
+        {
+          "text": "Safety Materials",
+          "href": "",
+          "icon": "FaShieldAlt"
+        },
+        {
+          "text": "Electrical Tools",
+          "href": "",
+          "icon": "FaPlug"
+        },
+        {
+          "text": "Insulation",
+          "href": "",
+          "icon": "FaThermometer"
+        },
+        {
+          "text": "Liquid Bitumen",
+          "href": "",
+          "icon": "FaTint"
+        },
+        {
+          "text": "Styrofoam",
+          "href": "",
+          "icon": "FaSnowflake"
+        },
+        {
+          "text": "Filler Board",
+          "href": "",
+          "icon": "FaSquareFull"
+        },
+        {
+          "text": "Water Insulation",
+          "href": "",
+          "icon": "FaWater"
+        },
+        {
+          "text": "Geotextile",
+          "href": "",
+          "icon": "FaGlobeAmericas"
+        }
+      ]
+    },
+    {
+      "text": "Electrical Material",
+      "href": "",
+      "icon": "FaPlug",
+      "subcategories": [
+        {
+          "text": "Cables and Wires",
+          "href": "",
+          "icon": "FaWire"
+        },
+        {
+          "text": "Boxes and Cover",
+          "href": "",
+          "icon": "FaBox"
+        },
+        {
+          "text": "Indoor Lighting",
+          "href": "",
+          "icon": "FaLightbulb"
+        },
+        {
+          "text": "Switches",
+          "href": "",
+          "icon": "FaToggleOff"
+        },
+        {
+          "text": "Sockets",
+          "href": "",
+          "icon": "FaPlug"
+        },
+        {
+          "text": "Control Panels",
+          "href": "",
+          "icon": "FaCogs"
+        },
+        {
+          "text": "Fans",
+          "href": "",
+          "icon": "FaFan"
+        },
+        {
+          "text": "Cable Management System",
+          "href": "",
+          "icon": "FaBars"
+        },
+        {
+          "text": "Electrical Accessories",
+          "href": "",
+          "icon": "FaTools"
+        }
+      ]
+    },
+    {
+      "text": "Plumbing",
+      "href": "",
+      "icon": "FaWater",
+      "subcategories": [
+        {
+          "text": "Pipes",
+          "href": "",
+          "icon": "FaPipe"
+        },
+        {
+          "text": "Water Tank",
+          "href": "",
+          "icon": "FaTint"
+        },
+        {
+          "text": "PVC & cPVC FITTINGS",
+          "href": "",
+          "icon": "FaCogs"
+        },
+        {
+          "text": "UPVC FITTINGS",
+          "href": "",
+          "icon": "FaTools"
+        },
+        {
+          "text": "Water Pumps",
+          "href": "",
+          "icon": "FaPump"
+        },
+        {
+          "text": "Manhole Covers",
+          "href": "",
+          "icon": "FaCircleNotch"
+        }
+      ]
     }
   ],
   "slide_1": {
@@ -272,5 +593,18 @@
       "title":"Get your building materials quickly and easily"
 
     }
+  },
+  "buymaterial":{
+    "categories":{
+      "title":"Filter by Brands"
+     
+    }
+  },
+  "mycarttxt":{
+    "mycart":" My Cart",
+    "nodata":"No Products Added",
+    "detail":"Start browsing our building material, add the required item(s) to your cart and submit your RFQ",
+    "or":"or",
+    "btnname":"Attach your RFQ Document"
   }
 }

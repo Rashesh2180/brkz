@@ -25,6 +25,10 @@ const Header = () => {
       document.body.style.overflow = "auto";
     };
   }, [open]);
+  if (location.pathname.startsWith('/auth')) {
+    return null;
+  }
+
 
   return (
     <div className="xl:px-16  lg:px-10 px-5 py-5 flex gap-5 justify-between items-center relative shadow-header">
@@ -51,12 +55,12 @@ const Header = () => {
       </ul>
 
       <div className="flex items-center gap-3 ">
-        <button className="text-sm font-bold text-primary capitalize max-lg:hidden">
+        <NavLink to="/auth" className="text-sm font-bold text-primary capitalize max-lg:hidden">
           {loginTxt.login}
-        </button>
-        <button className="px-5 h-11 font-semibold max-lg:hidden hover:shadow-custom text-white rounded-lg bg-primary capitalize">
+        </NavLink>
+        <NavLink to="/auth" className="px-5 h-11 flex justify-center items-center font-semibold max-lg:hidden hover:shadow-custom text-white rounded-lg bg-primary capitalize">
           {loginTxt.register}
-        </button>
+        </NavLink>
 
         <div
           className="relative h-11 gap-2 bg-primary-light px-5 flex justify-center items-center rounded-md"

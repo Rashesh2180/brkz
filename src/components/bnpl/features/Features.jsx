@@ -14,7 +14,7 @@ const Features = () => {
           data.map((ele, index) => (
             <div
               key={ele.id}
-              className="bg-white px-6  py-10 rounded-lg mt-14 relative flex flex-col gap-5 items-center"
+              className="bg-white px-6 transform transition-all duration-300 ease-in-out hover:scale-105  py-10 rounded-lg mt-14 relative flex flex-col gap-5 items-center"
             >
               {index === 0 && (
                 <img

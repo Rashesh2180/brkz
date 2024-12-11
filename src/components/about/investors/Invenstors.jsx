@@ -4,7 +4,7 @@ import enText from "../../../translationText/en.json";
 const Invenstors = () => {
   const aboutTxt = enText.about.investors;
   return (
-    <div className=" py-20 px-5 custom-container ">
+    <div className=" py-20 px-5 custom-container overflow-x-hidden ">
       <h1 className=" small-title  text-center">{aboutTxt.title}</h1>
       <h1 className=" section-title  text-center">
         <span className=" text-secondary-dark"> {aboutTxt.meet} </span>{" "}

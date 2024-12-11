@@ -1,7 +1,14 @@
 import React from "react";
 import enText from "../../translationText/en.json"; // Importing the JSON data
+import { NavLink, useLocation } from "react-router-dom";
+
 
 const Footer = () => {
+  const location = useLocation();
+  if (location.pathname.startsWith('/auth')) {
+    return null;
+  }
+
   const { 
     address, 
     get_in_touch, 

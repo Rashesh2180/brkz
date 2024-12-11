@@ -1,0 +1,20 @@
+{
+    "hero": {
+      "title": "هذا هو العنوان"
+    },
+    "common": {
+      "login": "تسجيل الدخول",
+      "register": "تسجيل"
+    },
+    "navList": [
+      {
+        "text": "الرئيسية",
+        "href": "/"
+      },
+      {
+        "text": "شراء المواد",
+        "href": "/buymaterial"
+      }
+    ]
+  }
+  

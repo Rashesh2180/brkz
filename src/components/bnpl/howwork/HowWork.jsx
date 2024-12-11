@@ -16,7 +16,7 @@ const HowWork = () => {
         {
           data && (
             data.map((ele, index) => (
-              <div key={ele.id} className="bg-white px-6 max-w-[300px] py-10 rounded-lg mt-14 relative flex flex-col gap-5 items-center">
+              <div key={ele.id} className="bg-white border-white border-t-2 hover:border-secondary-dark px-6 max-w-[300px] py-10 rounded-lg mt-14 relative flex flex-col gap-5 items-center">
                 
                 {index === 0 && (
                   <img

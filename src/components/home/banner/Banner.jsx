@@ -3,17 +3,16 @@ import enText from "../../../translationText/en.json"; // Importing the JSON dat
 import Button from "../../button/Button";
 
 const Banner = () => {
-  // Destructuring the text from the JSON data
   const { title, subtitle } = enText.banner;
+  const common = enText.common
 
   return (
     <div className="bg-primary relative">
       <div className="custom-container pl-20 py-20">
-        {/* Displaying the dynamic banner text */} 
         <h1 className="text-white text-4xl font-bold max-w-[800px] ">{title} {subtitle}</h1>
-        <button className="h-14 text-xl font-semibold capitalize cursor-pointer  rounded-lg px-6 mt-10 flex items-center justify-center  bg-white text-primary">
-            Buy Material
-        </button>
+       <div className=" mt-10">
+       <Button bgcolor="secondary-dark" text={common.buy_material}/>
+       </div>
       </div>
 
       <img
