@@ -27,7 +27,7 @@ const Categories = () => {
           {common.seeall}
         </button>
       </div>
-      <div className=" mt-5 flex justify-between gap-2 items-center overflow-x-auto">
+      <div className=" mt-5 flex  gap-3 items-center overflow-x-auto">
         {data &&
           data.map((ele) => (
             <button

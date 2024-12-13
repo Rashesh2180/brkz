@@ -5,7 +5,12 @@ import OfferBanner from '../../components/buymaterial/offerbanner/OfferBanner'
 import Searchbar from '../../components/buymaterial/searchbar/Searchbar'
 import Categories from "../../components/buymaterial/categories/Categories"
 import DashboardHeader from '../../components/dashboardheader/DashboardHeader'
+// import useFetch from '../../hooks/useFetch'
 const Dashboard = () => {
+
+  // const {loading,error,data} = useFetch("http://localhost:1337/api/products")
+  // console.log(data,"this is data")
+ 
   return (
     <div className=' min-h-[calc(100vh-120pc)] flex  overflow-y-auto'>
         <div className=' w-60 fixed left-0 top-0 '>
