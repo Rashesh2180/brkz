@@ -17,6 +17,9 @@ module.exports = {
       boxShadow: {
         'custom': '0 9px 23px rgba(0, 149, 169, .09)',
       },
+      screens:{
+        "xl-2":"1710px"
+      }
     },
   },
   plugins: [],

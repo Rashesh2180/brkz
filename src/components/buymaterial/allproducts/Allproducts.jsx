@@ -73,11 +73,11 @@
       
         return (
           <div className="relative">
-            <div className="grid grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))] gap-10">
+            <div className="grid xl-2:grid-cols-5 md:grid-cols-3 grid-cols-2 xl:grid-cols-4 gap-10 mx-auto  ">
               {data.map((ele) => (
                 <div
                   key={ele.id}
-                  className="max-w-[350px] w-full rounded-lg overflow-hidden"
+                  className="w-full max-w-[400px] rounded-lg overflow-hidden"
                 >
                   <div className="h-[200px] p-2 w-full rounded-lg bg-[hsla(0,0%,96%,.8)] relative">
                     <img
