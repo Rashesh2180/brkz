@@ -57,3 +57,32 @@ body {
 .styles_key_features__YtBem .styles_content__g50JF .styles_list__TAIhY .styles_item__bW0cX .styles_icon__bnatv svg {
   color: #0095a9 !important;
 }
+/* Add this to your CSS */
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-btn {
+  margin: 0 5px;
+   height: 40px;
+   width: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  background-color: white;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.page-btn.active {
+  background-color: #007BFF;
+  color: white;
+}
+
+.page-btn:disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}

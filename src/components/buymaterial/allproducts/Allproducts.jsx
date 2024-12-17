@@ -2,13 +2,18 @@ import React, { useState } from "react";
 import BuyModel from "../buymodel/BuyModel";
 import { FaPlus } from "react-icons/fa";
 import useFetch from "../../../hooks/useFetch"; // Import useFetch hook
+import Pagination from "../../pagination/Pagination"; // Import the Pagination component
 
 const AllProducts = () => {
   const { loading, error, data } = useFetch("http://localhost:1337/api/products"); // Fetch the data from API
-  console.log(data)
+  console.log(data);
 
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState(null);
+  
+  // Pagination State
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 15;
 
   const openModal = (product) => {
     setSelectedProduct(product);
@@ -27,14 +32,19 @@ const AllProducts = () => {
     closeModal();
   };
 
- 
   if (loading) return <div>Loading products...</div>;
   if (error) return <div>Error loading products: {error.message}</div>;
+
+  // Pagination Logic
+  const totalItems = data.data ? data.data.length : 0;
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentProducts = data.data ? data.data.slice(indexOfFirstItem, indexOfLastItem) : [];
 
   return (
     <div className="relative">
       <div className="grid xl-2:grid-cols-5 md:grid-cols-3 grid-cols-2 xl:grid-cols-4 gap-10 mx-auto">
-        {data.data ?  data.data.map((ele) => (
+        {currentProducts.length > 0 ? currentProducts.map((ele) => (
           <div key={ele.documentId} className="w-full max-w-[400px] rounded-lg overflow-hidden">
             <div className="h-[200px] p-2 w-full rounded-lg bg-[hsla(0,0%,96%,.8)] relative">
               <img
@@ -65,6 +75,16 @@ const AllProducts = () => {
         product={selectedProduct}
         onAddToCart={handleAddToCart}
       />
+      
+      {/* Pagination Component */}
+     <div className=" mt-4">
+     <Pagination
+        totalItems={totalItems}
+        itemsPerPage={itemsPerPage}
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+      />
+     </div>
     </div>
   );
 };

@@ -390,12 +390,13 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
       'api::product.product'
     > &
       Schema.Attribute.Private;
-    product_category: Schema.Attribute.String;
+    product_category: Schema.Attribute.String & Schema.Attribute.Required;
     productImage: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
-    > &
-      Schema.Attribute.Required;
-    productTitle: Schema.Attribute.String;
+    >;
+    productTitle: Schema.Attribute.String &
+      Schema.Attribute.Required &
+      Schema.Attribute.Unique;
     publishedAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

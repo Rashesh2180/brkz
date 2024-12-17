@@ -52,303 +52,354 @@
     },
     {
       "text": "cement",
-      "href": "",
+      "href": "/buymaterial/cement",
       "icon": "FaArchway",
       "subcategories": [
        
       
         {
           "text": "Concrete Ready Mix",
-          "href": "",
+          "href": "/buymaterial/cement/concrete-ready-mix",
           "icon": "FaTruckLoading"
         },
         {
           "text": "Bulk Cement",
-          "href": "/bulk-cement",
+          "href": "/buymaterial/cement/bulk-cement",
           "icon": "FaWarehouse"
         },
         {
           "text": "Cement Bags",
-          "href": "",
+          "href": "/buymaterial/cement/cement-bags",
           "icon": "FaBoxOpen"
         },
         {
           "text": "Cement Board",
-          "href": "",
+          "href": "/buymaterial/cement/cement-board",
           "icon": "FaFileAlt"
         }
       ]
     },
     {
+      "text": "Aggregate and Sand",
+      "href": "/buymaterial/aggregate-and-sand",
+      "icon": "FaArchway",
+      "subcategories": [
+       
+      
+        {
+          "text": "Aggregate",
+          "href": "/buymaterial/aggregate-and-sand/aggregate",
+          "icon": "FaTruckLoading"
+        },
+        {
+          "text": "Sand",
+          "href": "/buymaterial/aggregate-and-sand/sand",
+          "icon": "FaWarehouse"
+        }
+      
+      ]
+    },
+    {
+      "text": "Steel",
+      "href": "/buymaterial/steel",
+      "icon": "FaArchway",
+      "subcategories": [
+       
+      
+        {
+          "text": "Steel Rebar",
+          "href": "/buymaterial/steel/steel-rebar",
+          "icon": "FaTruckLoading"
+        },
+        {
+          "text": "Steel Products",
+          "href": "/buymaterial/steel/steel-products",
+          "icon": "FaWarehouse"
+        },
+        {
+          "text": "Industrial Steel (Commercial)",
+          "href": "/buymaterial/steel/industrial-steel-commercial",
+          "icon": "FaWarehouse"
+        }
+      
+      ]
+    },
+
+    {
       "text": "Block",
-      "href": "/",
+      "href": "/buymaterial/block",
       "icon": "FaAtlas",
       "subcategories": [
       
         {
           "text": "Steam (Bukhari)",
-          "href": "",
+          "href": "/buymaterial/block/steam-bukhari",
           "icon": "FaCloudRain"
         },
         {
           "text": "Burkani",
-          "href": "",
+          "href": "/buymaterial/block/burkani",
           "icon": "FaCube"
         },
         {
           "text": "Normal",
-          "href": "",
+          "href": "/buymaterial/block/normal",
           "icon": "FaSquare"
         },
         {
           "text": "Mixed",
-          "href": "",
+          "href": "/buymaterial/block/mixed",
           "icon": "FaPuzzlePiece"
         },
         {
           "text": "Red",
-          "href": "",
+          "href": "/buymaterial/block/red",
           "icon": "FaRedhat"
         },
         {
-          "text": "Siporex Wood",
-          "href": "",
+          "text": "Siporex",
+          "href": "/buymaterial/block/siporex",
           "icon": "FaTree"
         }
       ]
     },
     {
       "text": "Wood",
-      "href": "",
+      "href": "/buymaterial/wood",
       "icon": "FaTree",
       "subcategories": [
        
         {
           "text": "Block",
-          "href": "",
+          "href": "/buymaterial/wood/block",
           "icon": "FaCube"
         },
         {
           "text": "Plywood",
-          "href": "",
+          "href": "/buymaterial/wood/plywood",
           "icon": "FaPallet"
         },
         {
           "text": "MDF Boards",
-          "href": "",
+          "href": "/buymaterial/wood/mdf-boards",
           "icon": "FaFileAlt"
         }
       ]
     },
     {
       "text": "Interlock, Tiles, etc",
-      "href": "",
+      "href": "/buymaterial/interlock-tiles-etc",
       "icon": "FaAvianex",
       "subcategories": [
        
         {
           "text": "Kerbstone",
-          "href": "",
+          "href": "/buymaterial/interlock-tiles-etc/kerbstone",
           "icon": "FaCube"
         },
         {
           "text": "Tiles",
-          "href": "",
+          "href": "/buymaterial/interlock-tiles-etc/tiles",
           "icon": "FaTile"
         },
         {
           "text": "Interlock",
-          "href": "",
+          "href": "/buymaterial/interlock-tiles-etc/interlock",
           "icon": "FaPuzzlePiece"
         }
       ]
     },
     {
       "text": "Gypsum",
-      "href": "",
+      "href": "/buymaterial/gypsum",
       "icon": "FaCloudSunRain",
       "subcategories": [
         {
           "text": "Gypsum Board",
-          "href": "",
+          "href": "/buymaterial/gypsum/gypsum-board",
           "icon": "FaFileAlt"
         },
         {
           "text": "Gypsum Bags",
-          "href": "",
+          "href": "/buymaterial/gypsum/gypsum-bags",
           "icon": "FaBoxOpen"
         },
         {
           "text": "Gypsum Accessories",
-          "href": "",
+          "href": "/buymaterial/gypsum/gypsum-accessories",
           "icon": "FaTools"
         }
       ]
     },
     {
       "text": "Chemical & Adhesives",
-      "href": "",
+      "href": "/buymaterial/chemical-adhesives",
       "icon": "FaFlask",
       "subcategories": [
         {
           "text": "Chemicals / Pesticides",
-          "href": "",
+          "href": "/buymaterial/chemical-adhesives/chemicals-pesticides",
           "icon": "FaExclamationTriangle"
         },
         {
           "text": "Finishing Materials",
-          "href": "",
+          "href": "/buymaterial/chemical-adhesives/finishing-materials",
           "icon": "FaPaintRoller"
         },
         {
           "text": "Paints",
-          "href": "",
+          "href": "/buymaterial/chemical-adhesives/paints",
           "icon": "FaBrush"
         }
       ]
     },
     {
       "text": "Tools & Consumables",
-      "href": "",
+      "href": "/buymaterial/tools-consumables",
       "icon": "FaWrench",
       "subcategories": [
         {
           "text": "Consumables",
-          "href": "",
+          "href": "/buymaterial/tools-consumables/consumables",
           "icon": "FaCogs"
         },
         {
           "text": "Industrial Tools",
-          "href": "",
+          "href": "/buymaterial/tools-consumables/industrial-tools",
           "icon": "FaHammer"
         },
         {
           "text": "Safety Materials",
-          "href": "",
+          "href": "/buymaterial/tools-consumables/safety-materials",
           "icon": "FaShieldAlt"
         },
         {
           "text": "Electrical Tools",
-          "href": "",
+          "href": "/buymaterial/tools-consumables/electrical-tools",
           "icon": "FaPlug"
-        },
-        {
-          "text": "Insulation",
-          "href": "",
-          "icon": "FaThermometer"
-        },
+        }
+       
+      ]
+    },
+    {
+      "text":"Insulation",
+      "href":"/buymaterial/insulation",
+      "icon":"FaThermometer",
+      "subcategories":[
+       
         {
           "text": "Liquid Bitumen",
-          "href": "",
+          "href": "/buymaterial/insulation/liquid-bitumen",
           "icon": "FaTint"
         },
         {
           "text": "Styrofoam",
-          "href": "",
+          "href": "/buymaterial/insulation/styrofoam",
           "icon": "FaSnowflake"
         },
         {
           "text": "Filler Board",
-          "href": "",
+          "href": "/buymaterial/insulation/filler-board",
           "icon": "FaSquareFull"
         },
         {
           "text": "Water Insulation",
-          "href": "",
+          "href": "/buymaterial/insulation/water-insulation",
           "icon": "FaWater"
         },
         {
           "text": "Geotextile",
-          "href": "",
+          "href": "/buymaterial/insulation/geotextile",
           "icon": "FaGlobeAmericas"
         }
       ]
+
     },
     {
       "text": "Electrical Material",
-      "href": "",
+      "href": "/buymaterial/electrical-material",
       "icon": "FaPlug",
       "subcategories": [
         {
           "text": "Cables and Wires",
-          "href": "",
+          "href": "/buymaterial/electrical-material/cables-and-wires",
           "icon": "FaWire"
         },
         {
           "text": "Boxes and Cover",
-          "href": "",
+          "href": "/buymaterial/electrical-material/boxes-and-cover",
           "icon": "FaBox"
         },
         {
           "text": "Indoor Lighting",
-          "href": "",
+          "href": "/buymaterial/electrical-material/indoor-lighting",
           "icon": "FaLightbulb"
         },
         {
           "text": "Switches",
-          "href": "",
+          "href": "/buymaterial/electrical-material/switches",
           "icon": "FaToggleOff"
         },
         {
           "text": "Sockets",
-          "href": "",
+          "href": "/buymaterial/electrical-material/sockets",
           "icon": "FaPlug"
         },
         {
           "text": "Control Panels",
-          "href": "",
+          "href": "/buymaterial/electrical-material/control-panels",
           "icon": "FaCogs"
         },
         {
           "text": "Fans",
-          "href": "",
+          "href": "/buymaterial/electrical-material/fans",
           "icon": "FaFan"
         },
         {
           "text": "Cable Management System",
-          "href": "",
+          "href": "/buymaterial/electrical-material/cable-management-system",
           "icon": "FaBars"
         },
         {
           "text": "Electrical Accessories",
-          "href": "",
+          "href": "/buymaterial/electrical-material/electrical-accessories",
           "icon": "FaTools"
         }
       ]
     },
     {
       "text": "Plumbing",
-      "href": "",
+      "href": "/buymaterial/plumbing",
       "icon": "FaWater",
       "subcategories": [
         {
           "text": "Pipes",
-          "href": "",
+          "href": "/buymaterial/plumbing/pipes",
           "icon": "FaPipe"
         },
         {
           "text": "Water Tank",
-          "href": "",
+          "href": "/buymaterial/plumbing/water-tank",
           "icon": "FaTint"
         },
         {
           "text": "PVC & cPVC FITTINGS",
-          "href": "",
+          "href": "/buymaterial/plumbing/pvc-cpvc-fittings",
           "icon": "FaCogs"
         },
         {
           "text": "UPVC FITTINGS",
-          "href": "",
+          "href": "/buymaterial/plumbing/upvc-fittings",
           "icon": "FaTools"
         },
         {
           "text": "Water Pumps",
-          "href": "",
+          "href": "/buymaterial/plumbing/water-pumps",
           "icon": "FaPump"
         },
         {
           "text": "Manhole Covers",
-          "href": "",
+          "href": "/buymaterial/plumbing/manhole-covers",
           "icon": "FaCircleNotch"
         }
       ]

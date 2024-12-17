@@ -13,12 +13,14 @@
   "pluginOptions": {},
   "attributes": {
     "productTitle": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "productImage": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
@@ -27,7 +29,8 @@
       ]
     },
     "product_category": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
